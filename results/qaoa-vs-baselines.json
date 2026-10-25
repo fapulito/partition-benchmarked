@@ -1,0 +1,172 @@
+{
+  "shots": 8192,
+  "optimizer": "COBYLA (rhobeg 0.3, tol 1e-6), H normalized by max |coeff|",
+  "runs": [
+    {
+      "instance": "lab_backpack_n6",
+      "n": 6,
+      "reps": 1,
+      "hamiltonian_scale": 71.5,
+      "trained_normalized_cost": -0.9732,
+      "trained_raw_cost_expectation": -69.58,
+      "ising_offset": -462.5,
+      "optimizer_evals_best_run": 100,
+      "trained_params": [
+        0.1744,
+        -0.0053
+      ],
+      "mode_probability": 0.0314,
+      "p_sampled_optimal": 0.0599,
+      "qaoa_signs": [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "benchmark": {
+        "n": 6,
+        "diff_optimal": 0,
+        "diff_greedy": 2,
+        "diff_anneal": 0,
+        "diff_qaoa": 2,
+        "qaoa_optimal": false,
+        "qaoa_vs_greedy": 0
+      },
+      "wall_s": 5.4
+    },
+    {
+      "instance": "lab_backpack_n6",
+      "n": 6,
+      "reps": 2,
+      "hamiltonian_scale": 71.5,
+      "trained_normalized_cost": -0.8223,
+      "trained_raw_cost_expectation": -58.791,
+      "ising_offset": -462.5,
+      "optimizer_evals_best_run": 100,
+      "trained_params": [
+        -0.3174,
+        0.5884,
+        -0.7601,
+        0.8154
+      ],
+      "mode_probability": 0.0752,
+      "p_sampled_optimal": 0.0129,
+      "qaoa_signs": [
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "benchmark": {
+        "n": 6,
+        "diff_optimal": 0,
+        "diff_greedy": 2,
+        "diff_anneal": 0,
+        "diff_qaoa": 2,
+        "qaoa_optimal": false,
+        "qaoa_vs_greedy": 0
+      },
+      "wall_s": 1.9
+    },
+    {
+      "instance": "random42_n12",
+      "n": 12,
+      "reps": 1,
+      "hamiltonian_scale": 4368.0,
+      "trained_normalized_cost": -0.172,
+      "trained_raw_cost_expectation": -751.287,
+      "ising_offset": -75333.0,
+      "optimizer_evals_best_run": 35,
+      "trained_params": [
+        -0.4105,
+        0.2451
+      ],
+      "mode_probability": 0.0029,
+      "p_sampled_optimal": 0.0029,
+      "qaoa_signs": [
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "benchmark": {
+        "n": 12,
+        "diff_optimal": 1,
+        "diff_greedy": 1,
+        "diff_anneal": 1,
+        "diff_qaoa": 93,
+        "qaoa_optimal": false,
+        "qaoa_vs_greedy": 92
+      },
+      "wall_s": 1.9
+    },
+    {
+      "instance": "random42_n12",
+      "n": 12,
+      "reps": 2,
+      "hamiltonian_scale": 4368.0,
+      "trained_normalized_cost": -0.3802,
+      "trained_raw_cost_expectation": -1660.98,
+      "ising_offset": -75333.0,
+      "optimizer_evals_best_run": 74,
+      "trained_params": [
+        1.3205,
+        0.364,
+        0.6826,
+        1.2154
+      ],
+      "mode_probability": 0.0027,
+      "p_sampled_optimal": 0.005,
+      "qaoa_signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "benchmark": {
+        "n": 12,
+        "diff_optimal": 1,
+        "diff_greedy": 1,
+        "diff_anneal": 1,
+        "diff_qaoa": 39,
+        "qaoa_optimal": false,
+        "qaoa_vs_greedy": 38
+      },
+      "wall_s": 3.9
+    },
+    {
+      "instance": "random7_n24",
+      "n": 24,
+      "reps": 1,
+      "status": "skipped_local_time_budget",
+      "single_eval_s": 33.16
+    }
+  ],
+  "pretrained_n6_exact": {
+    "top_bitstring": "010110",
+    "top_prob": 0.028,
+    "top_diff": 2,
+    "expected_diff": 10.469,
+    "p_optimal": 0.0546
+  }
+}

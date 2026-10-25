@@ -1,0 +1,40 @@
+{
+  "backend": "ibm_fez (156-qubit Heron r2)",
+  "section2_sampler_best": {
+    "key": "v3",
+    "label": "VERSION 3: M3 Mitigation Only",
+    "bitstring": "000011",
+    "difference": 0
+  },
+  "section2_differences": {
+    "v1_no_mitigation": 0,
+    "v2_suppression_only": 4,
+    "v3_m3_only": 0,
+    "v4_m3_plus_suppression": 4
+  },
+  "section4_pce_n160": {
+    "loss_no_em": 56106.51154240112,
+    "loss_trex": -2108.073048994605,
+    "loss_zne": -555.346044642579,
+    "loss_pec": 14090.547430736431,
+    "decoded": {
+      "No EM": {
+        "difference": 1365,
+        "loss": 56106.51154240112
+      },
+      "TREX": {
+        "difference": 351,
+        "loss": -2108.073048994605
+      },
+      "ZNE": {
+        "difference": 491,
+        "loss": -555.346044642579
+      },
+      "PEC": {
+        "difference": 755,
+        "loss": 14090.547430736431
+      }
+    }
+  },
+  "grader": "Lab 4a: 15/15 exercises passed (qfest_grader, account fapulito@gmail.com)"
+}
